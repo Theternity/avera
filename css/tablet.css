@@ -1,0 +1,217 @@
+html {
+    font-size: 20px;
+}
+
+.container nav {
+    flex-direction: column;
+    height: initial;
+    width: 100vw;
+    padding: 1rem 0;
+    background: #131314;
+}
+
+.container nav h1 {
+    display: block;
+    float: left !important;
+    color: #fff;
+}
+
+nav #nav-menu {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    width: 100vw;
+    display: none;
+    padding-bottom: 1rem;
+}
+
+nav #hamburger {
+    font-size: 1.5rem;
+    color: #2563EB;
+    position: absolute;
+    right: 2rem;
+    top: 2.2rem;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.toggle-line {
+    width: 100%;
+    height: 2px;
+    background: #2A6DFD;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+#hamburger.open .toggle-line:nth-child(1) {
+    transform: translateY(13px);
+}
+
+#hamburger.open .toggle-line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.open .toggle-line:nth-child(3) {
+    transform: translateY(-4px);
+}
+
+#hamburger.open2 .toggle-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 7px);
+}
+
+#hamburger.open2 .toggle-line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.open2 .toggle-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -8px);
+}
+
+nav #nav-menu .nav-link {
+    margin-top: 1rem;
+}
+
+#hero {
+    padding-top: 10rem;
+}
+
+.col {
+    flex: none;
+    position: relative;
+    width: 100vw;
+}
+
+#hero a {
+    font-size: .8rem;
+    z-index: 1;
+}
+
+#hero .col-2 svg {
+    width: 18rem;
+    height: 18rem;
+    position: static;
+    transform: translate(1.5rem, 4rem);
+}
+
+#about {
+    padding: 0;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#about .col {
+    padding: 2rem;
+}
+
+#aboutimg-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about .col-2 svg {
+    width: 60%;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    margin-top: -15rem;
+}
+
+#skills {
+    width: 100vw;
+    padding: 0;
+}
+
+.skills-wrapper {
+    width: 100vw;
+    padding: 1.5rem;
+}
+
+.skills-wrapper .status {
+    margin-bottom: .3rem;
+}
+
+#skills .skill {
+    width: 100%;
+}
+
+#skills h3 {
+    width: 100vw;
+    padding-bottom: 2rem;
+}
+
+#skills .proggress {
+    flex-direction: column;
+}
+
+#portfolio {
+    width: 100vw;
+    padding: 1.5rem;
+}
+
+#portfolio h3 {
+    padding-bottom: 2rem;
+    transform: translateY(2rem);
+}
+
+#portfolio .card-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#portfolio .card-inner a {
+    width: 90% !important;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    transform: none !important;
+    margin-top: 2rem;
+}
+
+footer .social-media {
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+footer .social-media a i {
+    font-size: 1.7rem;
+}
+
+footer small {
+    line-height: 20px;
+}
+
+#contact .row {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .row .left div input, #contact select {
+    width: 100% !important;
+}
+
+#contact .row .left {
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+#contact .row .left label {
+    margin-top: 2rem;
+}
+
+#contact .row .left div a {
+    width: 100%;
+}
+
+#contact .row .right {
+    width: 90vw;
+    margin: 4rem 0;
+}

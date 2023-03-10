@@ -1,0 +1,53 @@
+@import "base.css";
+
+/**
+* App start
+*/
+.app {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/* Selected */
+
+.select-styled {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    margin: 10px 0;
+    transition: all 0.2s ease-in;
+}
+.select-styled:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: calc(50% - 2.5px);
+    right: 0;
+    border-radius: 10px;
+    background: #dadada;
+}
+.select-options {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    font-size: .78rem;
+    top: 3rem;
+    z-index: 10;
+    background-color: #f2f2f2;
+}
+.select-options li {
+    color:darkslategray;
+    margin: 0;
+    padding: 10px 25px;
+    border-top: 1px solid #e6e6e6;
+    transition: all .2s ease;
+}
+.select-options li:hover {
+    background: #e2e2e2;
+}
+.select-hidden {
+    visibility: hidden;
+}
