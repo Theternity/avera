@@ -1,0 +1,227 @@
+.dark .dark\:focus\:text-6:focus, .dark .dark\:group:focus .dark\:focus\:\:text-6, .dark .dark\:group:hover .dark\:hover\:\:text-6, .dark .dark\:group\:group:focus .dark\:focus\:\:text-6, .dark .dark\:group\:group:hover .dark\:hover\:\:text-6, .dark .dark\:hover\:text-6:hover, .dark .dark\:text-6, .focus\:text-6:focus, .group:focus .focus\:\:text-6, .group:hover .hover\:\:text-6, .group\:group:focus .focus\:\:text-6, .group\:group:hover .hover\:\:text-6, .hover\:text-6:hover, .text-6 {
+    font-size: 3rem
+}
+
+
+/* Scrollbar mildcss */
+.scroll-mild::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.scroll-mild-sm::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.scroll-mild::-webkit-scrollbar-thumb, .scroll-mild-sm::-webkit-scrollbar-thumb {
+    --scroll-color: rgba(0,0,0, 1);
+    background: var(--scroll-color);
+}
+.scroll-mild::-webkit-scrollbar-track, .scroll-mild-sm::-webkit-scrollbar-track {
+    background: #dcdcdc;
+}
+.scroll-mild-current::-webkit-scrollbar-thumb {
+    --scroll-color: currentColor;
+}
+
+.py-2xs {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+@media (min-width: 768px) {
+    .md\:none\! {
+        display: none;
+    }
+    .md\:min-w-7xl {
+        min-width: 24rem;
+    }
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-pear-400 {
+    --bg-opacity: 1;
+    background: rgba(23, 141, 155, var(--bg-opacity));
+}
+
+.min-w-6xl {
+    min-width: 18rem;
+}
+.max-h-8xl {
+    max-height: 24rem;
+}
+
+.after\:content:after {
+    content: "";
+    display: block;
+    min-height: 1px;
+}
+
+.after\:w-75:after {
+    width: 75%;
+}
+
+.block\> > * {
+    display: block;
+}
+
+.bg-opacity-15 {
+    --bg-opacity: .15;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+/* Position alignment */
+.top-left {
+    top: 0;
+    left: 0;
+}
+.top-right {
+    top: 0;
+    right: 0;
+}
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+/* Extra width end height */
+.w-mdb {
+    width: 2.5rem;
+}
+.w-6xl {
+    width: 16.5rem;
+}
+
+.w-7xl {
+    width: 17.5rem;
+}
+
+.w-8xl {
+    width: 18.5rem;
+}
+
+.w-9xl {
+    width: 20rem;
+}
+.h-mdb {
+    height: 2.5rem;
+}
+.h-xxs {
+    height: .5rem;
+}
+.h-6xl {
+    height: 16.5rem;
+}
+
+.h-7xl {
+    height: 17.5rem;
+}
+
+.h-8xl {
+    height: 18.5rem;
+}
+
+.h-9xl {
+    height: 20rem;
+}
+
+/* Font size */
+.text-mdb {
+    font-size: calc(.6rem + .4vw) ;
+}
+
+/* margin left auto */
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Line height */
+.lh-xs {
+    line-height: .25rem;
+}
+.lh-sm {
+    line-height: .5rem;
+}
+.lh-md {
+    line-height: .75rem;
+}
+.lh-base {
+    line-height: 1rem;
+}
+.lh-lg {
+    line-height: 1.25rem;
+}
+.lh-xl {
+    line-height: 1.5rem;
+}
+.lh-1 {
+    line-height: 1.5rem;
+}
+.lh-2 {
+    line-height: 2rem;
+}
+.lh-3 {
+    line-height: 2.5rem;
+}
+.lh-4 {
+    line-height: 3rem;
+}
+.lh-5 {
+    line-height: 3.5rem;
+}
+
+/* Extra padding and margin */
+.px-smd {
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+.py-smd {
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+}
+.mx-smd {
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.my-smd {
+    margin-bottom: .6rem;
+    margin-top: .6rem;
+}
+
+.bg-accent-900 {
+    --bg-opacity: 1;
+    background: rgba(20, 18, 52, var(--bg-opacity));
+}

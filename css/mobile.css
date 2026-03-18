@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+}
+
+#about .col-2 #about-image {
+    margin-left: 0;
+    margin-top: 0;
+    width: 90%;
+}
+
+#contact .row .left div{
+    width: 200%;
+    transform: translateX(-25%);
+}
